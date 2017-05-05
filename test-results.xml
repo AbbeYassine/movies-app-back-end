@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.847999999999999" tests="23" failures="0">
+  <testsuite name="Root Suite" timestamp="2017-05-05T13:00:33" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Actors" timestamp="2017-05-05T13:00:33" tests="0" file="C:\fichiers\selfLearning\Architecture logicielle\TP3\moviesNodeExpress\test\actors.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="POST actor" timestamp="2017-05-05T13:00:37" tests="3" file="C:\fichiers\selfLearning\Architecture logicielle\TP3\moviesNodeExpress\test\actors.js" failures="0" time="1.478">
+    <testcase name="Actors POST actor should create a actor" time="0.576" classname="should create a actor">
+    </testcase>
+    <testcase name="Actors POST actor should not allow you to create duplicate actors" time="0.461" classname="should not allow you to create duplicate actors">
+    </testcase>
+    <testcase name="Actors POST actor should allow to create an actor without ID" time="0.441" classname="should allow to create an actor without ID">
+    </testcase>
+  </testsuite>
+  <testsuite name="GET actor" timestamp="2017-05-05T13:00:38" tests="2" file="C:\fichiers\selfLearning\Architecture logicielle\TP3\moviesNodeExpress\test\actors.js" failures="0" time="0.868">
+    <testcase name="Actors GET actor should retrieve actor from db" time="0.452" classname="should retrieve actor from db">
+    </testcase>
+    <testcase name="Actors GET actor should respond not found when no actor exists" time="0.416" classname="should respond not found when no actor exists">
+    </testcase>
+  </testsuite>
+  <testsuite name="PUT actor" timestamp="2017-05-05T13:00:39" tests="2" file="C:\fichiers\selfLearning\Architecture logicielle\TP3\moviesNodeExpress\test\actors.js" failures="0" time="0.8089999999999999">
+    <testcase name="Actors PUT actor should edit a actor" time="0.421" classname="should edit a actor">
+    </testcase>
+    <testcase name="Actors PUT actor should have been edited" time="0.388" classname="should have been edited">
+    </testcase>
+  </testsuite>
+  <testsuite name="POST /actors/:id/movies" timestamp="2017-05-05T13:00:40" tests="2" file="C:\fichiers\selfLearning\Architecture logicielle\TP3\moviesNodeExpress\test\actors.js" failures="0" time="2.479">
+    <testcase name="Actors POST /actors/:id/movies should successfully add a movie to the actor" time="1.648" classname="should successfully add a movie to the actor">
+    </testcase>
+    <testcase name="Actors POST /actors/:id/movies actor should have array of movies now" time="0.831" classname="actor should have array of movies now">
+    </testcase>
+  </testsuite>
+  <testsuite name="DELETE /actors/:id/movies/:movie_id" timestamp="2017-05-05T13:00:43" tests="2" file="C:\fichiers\selfLearning\Architecture logicielle\TP3\moviesNodeExpress\test\actors.js" failures="0" time="2.284">
+    <testcase name="Actors DELETE /actors/:id/movies/:movie_id should successfully remove a movie from actor" time="0.853" classname="should successfully remove a movie from actor">
+    </testcase>
+    <testcase name="Actors DELETE /actors/:id/movies/:movie_id actor should no longer have that movie id" time="1.431" classname="actor should no longer have that movie id">
+    </testcase>
+  </testsuite>
+  <testsuite name="DELETE actor" timestamp="2017-05-05T13:00:45" tests="1" file="C:\fichiers\selfLearning\Architecture logicielle\TP3\moviesNodeExpress\test\actors.js" failures="0" time="0.405">
+    <testcase name="Actors DELETE actor should remove an actor" time="0.405" classname="should remove an actor">
+    </testcase>
+  </testsuite>
+  <testsuite name="Movies" timestamp="2017-05-05T13:00:45" tests="0" file="C:\fichiers\selfLearning\Architecture logicielle\TP3\moviesNodeExpress\test\movies.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="POST movie" timestamp="2017-05-05T13:00:46" tests="3" file="C:\fichiers\selfLearning\Architecture logicielle\TP3\moviesNodeExpress\test\movies.js" failures="0" time="1.315">
+    <testcase name="Movies POST movie should create a movie" time="0.451" classname="should create a movie">
+    </testcase>
+    <testcase name="Movies POST movie should not allow you to create duplicate movies" time="0.437" classname="should not allow you to create duplicate movies">
+    </testcase>
+    <testcase name="Movies POST movie should allow to create a movie without ID" time="0.427" classname="should allow to create a movie without ID">
+    </testcase>
+  </testsuite>
+  <testsuite name="GET movie" timestamp="2017-05-05T13:00:47" tests="2" file="C:\fichiers\selfLearning\Architecture logicielle\TP3\moviesNodeExpress\test\movies.js" failures="0" time="0.829">
+    <testcase name="Movies GET movie should retrieve movie from db" time="0.402" classname="should retrieve movie from db">
+    </testcase>
+    <testcase name="Movies GET movie should respond not found when no movie exists" time="0.427" classname="should respond not found when no movie exists">
+    </testcase>
+  </testsuite>
+  <testsuite name="PUT movie" timestamp="2017-05-05T13:00:48" tests="1" file="C:\fichiers\selfLearning\Architecture logicielle\TP3\moviesNodeExpress\test\movies.js" failures="0" time="0.472">
+    <testcase name="Movies PUT movie should edit a movie" time="0.472" classname="should edit a movie">
+    </testcase>
+  </testsuite>
+  <testsuite name="POST /movies/:id/actors" timestamp="2017-05-05T13:00:48" tests="2" file="C:\fichiers\selfLearning\Architecture logicielle\TP3\moviesNodeExpress\test\movies.js" failures="0" time="2.354">
+    <testcase name="Movies POST /movies/:id/actors should successfully add an actor to movie" time="1.594" classname="should successfully add an actor to movie">
+    </testcase>
+    <testcase name="Movies POST /movies/:id/actors movie should have array of actors now" time="0.76" classname="movie should have array of actors now">
+    </testcase>
+  </testsuite>
+  <testsuite name="DELETE /movies/:id/actors/:actor_id" timestamp="2017-05-05T13:00:51" tests="2" file="C:\fichiers\selfLearning\Architecture logicielle\TP3\moviesNodeExpress\test\movies.js" failures="0" time="1.189">
+    <testcase name="Movies DELETE /movies/:id/actors/:actor_id should successfully remove an actor from movie" time="0.794" classname="should successfully remove an actor from movie">
+    </testcase>
+    <testcase name="Movies DELETE /movies/:id/actors/:actor_id movie should no longer have that actor id" time="0.395" classname="movie should no longer have that actor id">
+    </testcase>
+  </testsuite>
+  <testsuite name="DELETE movie" timestamp="2017-05-05T13:00:52" tests="1" file="C:\fichiers\selfLearning\Architecture logicielle\TP3\moviesNodeExpress\test\movies.js" failures="0" time="0.366">
+    <testcase name="Movies DELETE movie should remove a movie" time="0.366" classname="should remove a movie">
+    </testcase>
+  </testsuite>
+</testsuites>

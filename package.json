@@ -16,11 +16,10 @@
     "express": "^4.7.2",
     "mongoose": "^4.0.0",
     "body-parser": "^1.5.2"
-
-
   },
   "devDependencies": {
     "mocha": "^1.21.3",
+    "mocha-junit-reporter": "^1.13.0",
     "should": "^4.0.4",
     "supertest": "^0.13.0"
   }
