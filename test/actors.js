@@ -20,7 +20,6 @@ describe('Actors', function () {
     describe('POST actor', function () {
         it('should create a actor', function (done) {
             var actor = {
-                'id': '1',
                 'name': 'AxiomZen',
                 'birth_year': '2012',
             };
